@@ -27,6 +27,7 @@ class AIDocService {
             console.error('Error fetching AI response:', error);
             throw error;
         }
+        //readFile('src/services/aiDoc.js')
     }
 
     async Store_Doc() {
